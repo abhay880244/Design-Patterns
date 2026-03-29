@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Kotlin
+kotlinc/
+*.kotlin_module
+
+# Local configuration
+local.properties
+
+# Log Files
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+test-results/
+coverage/
+jacoco.exec
+
+# Misc
+*.swp
+*.swo
+*~
