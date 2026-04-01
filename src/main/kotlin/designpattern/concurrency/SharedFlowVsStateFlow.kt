@@ -33,7 +33,7 @@ class StateFlowViewModel(scope: CoroutineScope) {
 // SHAREDFLOW EXAMPLE
 // ============================================================================
 
-class SharedFlowViewModel(scope: CoroutineScope) {
+class SharedFlowViewModel(var scope: CoroutineScope) {
     // SharedFlow does NOT need an initial value
     // replay = 0 means new subscribers won't get past events
     private val _events = MutableSharedFlow<String>(replay = 0)

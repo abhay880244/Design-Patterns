@@ -13,6 +13,9 @@ repositories {
 }
 
 dependencies {
+    // Coroutines core and flow
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
+    
     testImplementation(kotlin("test"))
 }
 
